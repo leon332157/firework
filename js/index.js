@@ -10,7 +10,7 @@ self.canvas = document.createElement('canvas');
 self.canvas.width = self.cw = $(window).innerWidth();
 self.canvas.height = self.ch = $(window).innerHeight();
 self.particles = [];
-self.partCount = 500;
+self.partCount = 400;
 self.fireworks = [];
 self.mx = self.cw/2;
 self.my = self.ch/2;
@@ -27,7 +27,7 @@ self.fworkAccel = 5;
 self.hueVariance = 30;
 self.flickerDensity = 25;
 self.showShockwave = true;
-self.showTarget = true;
+self.showTarget = false;
 self.clearAlpha = 25;
 
 $(document.body).append(self.canvas);
