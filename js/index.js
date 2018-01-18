@@ -10,7 +10,7 @@ self.canvas = document.createElement('canvas');
 self.canvas.width = self.cw = $(window).innerWidth();
 self.canvas.height = self.ch = $(window).innerHeight();
 self.particles = [];
-self.partCount = 10;
+self.partCount = 500;
 self.fireworks = [];
 self.mx = self.cw/2;
 self.my = self.ch/2;
